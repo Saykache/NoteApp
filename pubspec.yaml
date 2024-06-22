@@ -39,6 +39,28 @@ dependencies:
   firebase_core: ^3.0.0
   cloud_firestore: ^5.0.0
   google_fonts: ^6.2.1
+  flutter_native_splash: ^1.2.0
+  flutter_launcher_icons: ^0.9.1
+
+
+# Custom Marcos Santos Moreira
+flutter_native_splash:
+  color: "#C01160"
+  image: "assets/app/splash.png"
+  android: true
+  ios: true
+
+
+flutter_icons:
+  image_path: "assets/app/icon.png"
+  ios: true
+  remove_alpha_ios: true
+  android: "launcher_icon"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/app/icon-android.png"
+
+
+
 
 dev_dependencies:
   flutter_test:

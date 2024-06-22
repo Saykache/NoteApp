@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 class AppStyle {
   static Color bgColor = const Color(0xFFe2e2ff);
-  static Color mainColor = const Color(0xFF5A082D); 
+  static Color mainColor = Color.fromARGB(255, 155, 7, 74); 
   static Color accentColor = const Color(0xFF0065FF);
 
   // Configurações para cartões de diferentes Cores
